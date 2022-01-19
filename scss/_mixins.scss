@@ -5,3 +5,13 @@
   color: $color;
   font-family: "Open Sans", sans-serif;
 }
+
+@mixin leftPosition($l, $t) {
+  left: $l;
+  top: $t;
+}
+
+@mixin rightPosition($r, $t) {
+  right: $r;
+  top: $t;
+}
